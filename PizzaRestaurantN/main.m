@@ -20,17 +20,31 @@ int main(int argc, const char * argv[])
     
     @autoreleasepool {
         
-        NSLog(@"Please pick your pizza size and toppings:");
+ 
         
         Kitchen *restaurantKitchen = [Kitchen new];
         
         // make a manager
-        // Manager *managerMean = [Manager new];
+        Manager *managerMean = [Manager new];
         Manager2 *managerNice = [Manager2 new];
         
+        
         // tell the kitchen who its delegate is
-        restaurantKitchen.delegate = managerNice;
+        NSLog(@"Please pick your manager by typing nice or mean:");
+        NSLog(@"> ");
+        char str[50];
+        fgets (str, 50, stdin);
+        
+        NSString *inputMananger = [[NSString alloc] initWithUTF8String:str];
+        inputMananger = [inputMananger stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        
+        if ([inputMananger isEqualToString:@"nice"]) {
+            restaurantKitchen.delegate = managerNice;
+        } else if ([inputMananger isEqualToString:@"mean"]) {
+            restaurantKitchen.delegate = managerMean;
+        }
 
+        NSLog(@"Please pick your pizza size and toppings:");
         
         while (TRUE) {
             // Loop forever
