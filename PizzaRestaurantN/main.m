@@ -25,8 +25,8 @@ int main(int argc, const char * argv[])
         Kitchen *restaurantKitchen = [Kitchen new];
         
         // make a manager
-        Manager *managerMean = [Manager new];
-        Manager2 *managerNice = [Manager2 new];
+
+
         
         
         // tell the kitchen who its delegate is
@@ -39,8 +39,10 @@ int main(int argc, const char * argv[])
         inputMananger = [inputMananger stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
         
         if ([inputMananger isEqualToString:@"nice"]) {
+            Manager2 *managerNice = [Manager2 new];
             restaurantKitchen.delegate = managerNice;
         } else if ([inputMananger isEqualToString:@"mean"]) {
+            Manager *managerMean = [Manager new];
             restaurantKitchen.delegate = managerMean;
         }
 
@@ -79,8 +81,11 @@ int main(int argc, const char * argv[])
             Pizza *pizza1 = [restaurantKitchen makePizzaWithSize:size toppings:toppings];
             
             
-            
-            NSLog(@"Enjoy your %@ %@ pizza", [pizza1 sizeAsString], pizza1.toppings);
+            if (pizza1 != 0) {
+            NSLog(@"Enjoy your %@ %@ pizza.", [pizza1 sizeAsString], pizza1.toppings);
+            } else {
+                NSLog(@"No pizza for you.");
+            }
             //            [restaurantKitchen makePizzaWithSize:size toppings:commandWords[1]];
             // And then send some message to the kitchen...
             
