@@ -8,7 +8,6 @@
 
 #import "Manager.h"
 
-
 @implementation Manager
 
 - (BOOL)kitchen:(Kitchen *)kitchen shouldMakePizzaOfSize:(PizzaSize)size andToppings:(NSArray *)toppings {

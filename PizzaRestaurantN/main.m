@@ -10,6 +10,7 @@
 
 #import "Kitchen.h"
 #import "Manager.h"
+#import "Manager2.h"
 
 int main(int argc, const char * argv[])
 {
@@ -24,10 +25,12 @@ int main(int argc, const char * argv[])
         Kitchen *restaurantKitchen = [Kitchen new];
         
         // make a manager
-        Manager *managerMean = [Manager new];
+        // Manager *managerMean = [Manager new];
+        Manager2 *managerNice = [Manager2 new];
         
         // tell the kitchen who its delegate is
-        restaurantKitchen.delegate = managerMean;
+        restaurantKitchen.delegate = managerNice;
+
         
         while (TRUE) {
             // Loop forever
@@ -63,7 +66,7 @@ int main(int argc, const char * argv[])
             
             
             
-            NSLog(@"Enjoy your %i %@ pizza", pizza1.size, pizza1.toppings);
+            NSLog(@"Enjoy your %@ %@ pizza", [pizza1 sizeAsString], pizza1.toppings);
             //            [restaurantKitchen makePizzaWithSize:size toppings:commandWords[1]];
             // And then send some message to the kitchen...
             

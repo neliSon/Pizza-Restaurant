@@ -11,6 +11,7 @@
 		1BE3B20B1C936009005B1499 /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3B20A1C936009005B1499 /* Kitchen.m */; };
 		1BE3B20E1C936033005B1499 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3B20D1C936033005B1499 /* Pizza.m */; };
 		1BE3B2121C936137005B1499 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3B2111C936137005B1499 /* Manager.m */; };
+		1BE3B2151C936B7C005B1499 /* Manager2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3B2141C936B7C005B1499 /* Manager2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		1BE3B20F1C936059005B1499 /* KitchenDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KitchenDelegate.h; sourceTree = "<group>"; };
 		1BE3B2101C936137005B1499 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
 		1BE3B2111C936137005B1499 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		1BE3B2131C936B7C005B1499 /* Manager2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager2.h; sourceTree = "<group>"; };
+		1BE3B2141C936B7C005B1499 /* Manager2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 				1BE3B20D1C936033005B1499 /* Pizza.m */,
 				1BE3B2101C936137005B1499 /* Manager.h */,
 				1BE3B2111C936137005B1499 /* Manager.m */,
+				1BE3B2131C936B7C005B1499 /* Manager2.h */,
+				1BE3B2141C936B7C005B1499 /* Manager2.m */,
 				1BE3B20F1C936059005B1499 /* KitchenDelegate.h */,
 			);
 			path = PizzaRestaurantN;
@@ -139,6 +144,7 @@
 				1BE3B20B1C936009005B1499 /* Kitchen.m in Sources */,
 				1BE3B2031C935F51005B1499 /* main.m in Sources */,
 				1BE3B2121C936137005B1499 /* Manager.m in Sources */,
+				1BE3B2151C936B7C005B1499 /* Manager2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
