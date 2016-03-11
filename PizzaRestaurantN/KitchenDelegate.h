@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import "Pizza.h"
+
 @class Kitchen;
 
 @protocol KitchenDelegate <NSObject>

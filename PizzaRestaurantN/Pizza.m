@@ -24,4 +24,17 @@
     return self;
 }
 
+
+- (NSString *) sizeAsString {
+    if (self.size == small) {
+        return @"small";
+    } else if (self.size == medium) {
+        return @"medium";
+    } else if (self.size == large) {
+        return @"large";
+    } else {
+        return nil;
+    }
+}
+
 @end

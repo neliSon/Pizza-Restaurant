@@ -10,6 +10,7 @@
 		1BE3B2031C935F51005B1499 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3B2021C935F51005B1499 /* main.m */; };
 		1BE3B20B1C936009005B1499 /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3B20A1C936009005B1499 /* Kitchen.m */; };
 		1BE3B20E1C936033005B1499 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3B20D1C936033005B1499 /* Pizza.m */; };
+		1BE3B2121C936137005B1499 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3B2111C936137005B1499 /* Manager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		1BE3B20C1C936033005B1499 /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
 		1BE3B20D1C936033005B1499 /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
 		1BE3B20F1C936059005B1499 /* KitchenDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KitchenDelegate.h; sourceTree = "<group>"; };
+		1BE3B2101C936137005B1499 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		1BE3B2111C936137005B1499 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				1BE3B20A1C936009005B1499 /* Kitchen.m */,
 				1BE3B20C1C936033005B1499 /* Pizza.h */,
 				1BE3B20D1C936033005B1499 /* Pizza.m */,
+				1BE3B2101C936137005B1499 /* Manager.h */,
+				1BE3B2111C936137005B1499 /* Manager.m */,
 				1BE3B20F1C936059005B1499 /* KitchenDelegate.h */,
 			);
 			path = PizzaRestaurantN;
@@ -133,6 +138,7 @@
 				1BE3B20E1C936033005B1499 /* Pizza.m in Sources */,
 				1BE3B20B1C936009005B1499 /* Kitchen.m in Sources */,
 				1BE3B2031C935F51005B1499 /* main.m in Sources */,
+				1BE3B2121C936137005B1499 /* Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

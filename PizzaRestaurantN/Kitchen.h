@@ -15,7 +15,11 @@
 @property (nonatomic) id <KitchenDelegate> delegate;
 
 - (Pizza *)makePizzaWithSize:(PizzaSize)size toppings:(NSArray *)toppings;
+
+
 //- (BOOL)kitchen:(Kitchen *)kitchen shouldMakePizzaOfSize:(PizzaSize)size andToppings:(NSArray *)toppings;
 //- (BOOL)kitchenShouldUpgradeOrder:(Kitchen *)kitchen;
+
+//      dont need these cause they're already declared in KitchenDelegate.h
 
 @end
